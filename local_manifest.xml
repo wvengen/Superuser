@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project name="phhusson/Superuser" path="package/apps/Superuser" remote="github" revision="master" />
-	<project name="phhusson/Widgets" path="package/apps/Widgets" remote="github" revision="master" />
+  <remote name="github" fetch="git://github.com/" /> <!-- remove if already defined elsewhere -->
+  <project name="wvengen/Superuser" path="package/apps/Superuser" remote="github" revision="feature/try-fix-aosp-build" />
+  <project name="seSuperuser/Widgets" path="package/apps/Widgets" remote="github" revision="master" />
 </manifest>
