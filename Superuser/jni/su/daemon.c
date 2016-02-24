@@ -52,6 +52,8 @@
 #include "utils.h"
 #include "pts.h"
 
+#include "binds.c"
+
 int is_daemon = 0;
 int daemon_from_uid = 0;
 int daemon_from_pid = 0;
